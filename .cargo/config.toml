@@ -1,0 +1,7 @@
+[build]
+target-dir = "target"
+
+[target.'cfg(all())']
+rustflags = [
+  "-Dwarnings",
+]
